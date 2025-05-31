@@ -420,7 +420,7 @@ Aplicação de banco de dados criada
 ![Banco de dados postgresql](img/bd-postgre.png)
 <br>
 <br>
-Execução do bando de dados no terminal
+Execução do banco de dados no terminal
 <br>
 <br>
 ![banco de dados postgresql terminal](img/postgre-terminal.png)
