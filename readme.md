@@ -25,14 +25,14 @@ docker run hello-docker
 ```
 Saída 
 <br>
+<br>
 ![Olá, docker](img/ola-docker.png)
 <br>
 <br>
 
+## 📁 Exercicio-02: Rodando pagina HTML com Nginx
 
-## 📁 Exercicio-02:Servindo HTML com Nginx
-
-- **Objetivo**: Servir uma página HTML com Nginx.
+- **Objetivo**: Rodar uma página HTML com Nginx configurando com imagem do docker.
 
 - **Arquivos**: index.html, style.css, Dockerfile
 
@@ -52,19 +52,21 @@ docker run -d -p 80:80 minha-landing
 ```
 Imagem criada
 <br>
+<br>
 ![image-nginx](img/site-nginx.png)
 <br>
 <br>
-
 Rodando no container saída porta 80:80
+<br>
 <br>
 ![container-site](img/site-container.png)
 <br>
 <br>
-
 Site hospedado no nginx
 <br>
+<br>
 ![site-login](img/site.png)
+<br>
 <br>
 
 ## 📁 Exercicio-03: Container com imaem ubuntu e terminal interativo
@@ -89,6 +91,7 @@ Instalando o curl dentro do ubuntu
 <br>
 <br>
 ![ubuntu e instalação curl](img/curl.png)
+<br>
 <br>
 
 ## 📁 Exercicio-04: Subir um container MySQL com volume
@@ -122,6 +125,7 @@ Execução do bando de dados
 <br>
 ![tabela mysql](img/tabela-mysql.png)
 <br>
+<br>
 
 ## 📁 Exercicio-05:Variáveis de Ambiente
 
@@ -139,6 +143,7 @@ Veriavel de ambiente criada com nome de usuário
 <br>
 ![varivel de ambiente](img/variavel-ambiente.png)
 <Br>
+<br>
 
 ## 📁 Exercicio-06: Multi-stage build com Go
 
@@ -173,6 +178,7 @@ Saída do golang
 <br>
 <br>
 ![ola, mundo](img/golang.png)
+<br>
 <br>
 
 ## 📁 Exercicio-07: Docker com dois containers
@@ -328,6 +334,7 @@ Aplicação rodando no navegador
 <br>
 ![aplicação](img/aplicacao.png)
 <br>
+<br>
 
 
 ## 📁 Exercicio-08: Configurar postgreSQL com Pgadmin
@@ -395,20 +402,25 @@ Menu lateral -> Query Tool Workspace
 
 Container do PostgreSQL e Pgadmin rodando
 <br>
+<br>
 ![Container](img/container-bd-pgadmin.png)
 <br>
 <br>
 Preenchido com as informações do banco de dados, que está no .env, e docker-compose
 <br>
+<br>
 ![Configurção do banco de dados](img/Pgadmin.png)
 <br>
 <br>
 Aplicação de banco de dados criada
+<br>
+<br>
 ![Banco de dados postgresql](img/bd-postgre.png)
 <br>
 <br>
 Execução do bando de dados no terminal
 ![banco de dados postgresql terminal](img/postgre-terminal.png)
+<br>
 <br>
 
 ## 📁 Exercicio-09: Landing Page com Nginx
@@ -432,10 +444,12 @@ docker run -d -p 80:80 minha-landing
 ```
 Container da landing page
 <br>
+<br>
 ![ container da pagina](img/container-pagina.png)
 <br>
 <br>
 Landing Page rodando
+<br>
 <br>
 ![ pagina rodando](img/pagina.png)
 <br>
@@ -484,6 +498,7 @@ docker exec -it <container_id> whoami
 ```
 Verificção de usuário
 <br>
+<br>
 ![usuario](img/usuario.png)
 <br>
 <br>
@@ -516,6 +531,7 @@ Filtrar somente as vulnerabilidades HIGH e CRITICAl
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v ~/.cache:/root/.cache aquasec/trivy image --severity HIGH,CRITICAL python:3.9
 ```
 Total de vulnerabildade encontra
+<br>
 <br>
 ![vulnerabilidade na imagem python](img/total-vulnerabilidade.png)
 <br>
@@ -563,10 +579,12 @@ flask==2.3.3
 ```
 Container já rodando com aplicção segura
 <br>
+<br>
 ![conatainer da aplicação segura](img/container-aplicacao-segura.png)
 <br>
 <br>
 Aplicação funcionando 100% e sem vulnerabilidades
+<br>
 <br>
 ![Aplicação funcionando](img/aplicacao-segura.png)
 <br>
@@ -617,9 +635,11 @@ docker push sahsz/meu-echo:v1
 ```
 Enviando o repositorio para o Docker Hub
 <br>
+<br>
 ![Enviando repositorio](img/docker-hub-push.png)
 <br>
 <br>
 Repositorio já disponivel no Docker Hub
+<br>
 <br>
 ![Repositorio no docker hub](img/docker-hub.png)
