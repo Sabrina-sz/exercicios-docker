@@ -1,0 +1,91 @@
+ body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f79963, #f5dd9c);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .login{
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        padding: 70px;
+        height: 330px;
+        width: 480px;
+    }
+    .logo {
+        max-width: 256px;
+        
+
+    } 
+   
+    h1 {
+      font-size: 35px;
+      color: #000000;
+      font-weight: 500;
+      margin: 0;
+    }
+    input{
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #06487abe;
+        width: 450px;
+        padding: 10px;
+
+
+    }
+    input::placeholder{
+        font-size: 18px;
+    }
+    input:focus {
+     outline: none;
+    border: none;
+    }
+
+
+    p {
+      font-size: 1.2rem;
+      max-width: 400px;
+      margin-bottom: 2rem;
+    }
+
+    a{
+       text-decoration: none;
+        color: #0068B8;
+    }
+    a:hover {
+      color: #363638;
+      border-bottom: 1px solid#363638;
+    }
+    input:hover{
+        border-bottom: 2px solid #000000;
+    }
+    .btn{
+        margin-top: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        gap: 1rem;
+    }
+    .btn button{
+        border: none;
+        padding: 8px;
+        width: 130px;
+        font-size: 18px;
+        cursor: pointer;
+       
+    }
+    .btn-voltar{
+         background-color: #bdbdbd;
+    }
+    .btn-avancar{
+        background-color: #0068B8;
+        color: #f0f0f0;
+    }
