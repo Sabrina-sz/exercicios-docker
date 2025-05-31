@@ -534,10 +534,10 @@ Filtrar somente as vulnerabilidades HIGH e CRITICAl
 ```dockerfile
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v ~/.cache:/root/.cache aquasec/trivy image --severity HIGH,CRITICAL python:3.9
 ```
-Total de vulnerabildade encontra
+Total de vulnerabildade encontra HIGH e CRITICAL
 <br>
 <br>
-![vulnerabilidade na imagem python](img/total-vulnerabilidade.png)
+![vulnerabilidade na imagem python](img/lista-vunerabilidade.png)
 <br>
 <br>
 
