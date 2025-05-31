@@ -400,6 +400,7 @@ Para conectar o Pgadmin ao PostgreSQL
 
 Menu lateral -> Query Tool Workspace
 
+
 Container do PostgreSQL e Pgadmin rodando
 <br>
 <br>
@@ -419,6 +420,8 @@ Aplicação de banco de dados criada
 <br>
 <br>
 Execução do bando de dados no terminal
+<br>
+<br>
 ![banco de dados postgresql terminal](img/postgre-terminal.png)
 <br>
 <br>
