@@ -399,6 +399,7 @@ Object -> create -> Server group
 Para conectar o Pgadmin ao PostgreSQL
 
 Menu lateral -> Query Tool Workspace
+<br>
 
 
 Container do PostgreSQL e Pgadmin rodando
